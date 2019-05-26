@@ -1,0 +1,35 @@
+﻿Xóa file, folder:
+rm -rf path;
+
+ex:
+rm -rf var/*
+rm -rf pub/static/*
+
+========================================================
+Lệnh enable, disable, clean, flush cahe:
+php bin/magento cache:enable
+php bin/magento cache:disable
+php bin/magento cache:clean
+php bin/magento cache:flush
+
+========================================================
+Lệnh upgrade module:
+
+php bin/magento setup:upgrade		(chạy lệnh này khi module có js, css: sau khu chạy lệnh update sẽ phải chạy lại deploy)
+php bin/magento setup:upgrade --keep-generated		(chạy lệnh này khi module chỉ override block, controller... không cần sinh ra file trong pub)
+
+========================================================
+Lệnh deploy
+rm -r var/*;rm -r pub/static/*;php bin/magento setup:static-content:deploy en_US en_AU -f;php bin/magento cache:clean;
+
+- en_US en_AU thay đổi tùy vào lang, gg thêm để hiểu
+
+- Sau khi chạy deploy xong phải chạy lệnh chmod:
+chmod -R 777 var/*;chmod -R 777 pub/static/*;chmod -R 777 generated;
+
+========================================================
+Lệnh chmod
+chmod -R 777 path;
+
+- Path là đường dẫn tới file, folder
+- gg thêm để hiểu về 777
