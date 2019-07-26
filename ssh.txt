@@ -1,0 +1,20 @@
+zip -r myarchive.zip dir1 -x dir1/ignoreDir1/**\* dir1/ignoreDir2/**\*
+
+
+unzip myarchive.zip
+
+
+
+zip -r media_catalog_product.zip media/catalog/product/* -x media/catalog/product/cache/**\* -x media/catalog/product/cache_/**\*
+
+
+
+zip -r media_catalog_product.zip media/catalog/product/* -x media/catalog/product/cache/* -x media/catalog/product/cache_/* 
+
+zip -r devsite.zip devsite/* -x devsite/pub/**\* -x devsite/vendor/**\*
+
+
+unzip media_catalog_category.zip
+unzip media_catalog_product.zip
+unzip media_catalog_tmp.zip
+unzip media_not_catalog.zip

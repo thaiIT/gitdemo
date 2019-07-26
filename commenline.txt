@@ -22,6 +22,8 @@ php bin/magento setup:upgrade --keep-generated		(chạy lệnh này khi module c
 Lệnh deploy
 rm -r var/*;rm -r pub/static/*;php bin/magento setup:static-content:deploy en_US en_AU -f;php bin/magento cache:clean;
 
+rm -r var/*;rm -r pub/static/*;php -dmemory_limit=6G bin/magento setup:static-content:deploy -f;php bin/magento cache:clean;
+
 - en_US en_AU thay đổi tùy vào lang, gg thêm để hiểu
 
 - Sau khi chạy deploy xong phải chạy lệnh chmod:
