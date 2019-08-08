@@ -13,6 +13,9 @@ zip -r media_catalog_product.zip media/catalog/product/* -x media/catalog/produc
 
 zip -r devsite.zip devsite/* -x devsite/pub/**\* -x devsite/vendor/**\*
 
+// Cau lenh zip forder
+zip -r physiotherapyonlinestore.com.au.zip physiotherapyonlinestore.com.au/* 
+
 
 unzip media_catalog_category.zip
 unzip media_catalog_product.zip

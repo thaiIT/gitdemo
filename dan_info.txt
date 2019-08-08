@@ -2,7 +2,9 @@
 
 Jira: 
 astirdev2@quenchmedia.com.au/Admin$123
+https://quenchmedia.atlassian.net/jira/software/projects/POS/boards/3
 
+Mail: 
 Host: quenchmedia.com.au/webmail
 email address will be: astirdev2@quenchmedia.com.au
 p: AHT2019$
