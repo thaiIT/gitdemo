@@ -23,6 +23,8 @@ Administrative URL : https://physiotherapyonlinestore.com.au/admin/
 user: admin
 pass: Ax1s2013
 Manage Subsite: https://physiotherapyonlinestore.com.au/admin/subsites/subsites/index/
-host: 77.104.156.160port: 18765 user: axismedicalcomau
+host: 77.104.156.160
+port: 18765 
+user: axismedicalcomau
 passphase: PPyP#[+K3ys4
 When use SSH to run command please go to folder: /public_html/physiotherapyonlinestore.com.au
