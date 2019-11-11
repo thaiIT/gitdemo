@@ -1,0 +1,7 @@
+https://sandbox.myeway.com.au
+ant.dungnv@gmail.com.sand/Admin$123
+
+- client:
+API Key:	44DD7CVdmUq68Eu8vtN3cgQGlRlEMLz1NH+PEma2FiPfLqOREeeRyJ4H/h6+65nsqQYyuo
+API password:	Admin$123
+Sandbox Public API Key:	epk-4C9D0C33-3E2D-420A-9544-7FF2E5CF0F03
